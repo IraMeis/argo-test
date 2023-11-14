@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: auth-helm
+  name: {{ include "helm-vault-demo.fullname" . }}
   annotations:
     avp.kubernetes.io/path: avp/data/example/example-auth
 type: Opaque
