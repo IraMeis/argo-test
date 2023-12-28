@@ -4,7 +4,7 @@ metadata:
   namespace: capp
   name: capp-cfg
   annotations:
-    avp.kubernetes.io/path: data/argocd/cert-app
+    avp.kubernetes.io/path: data/data/argocd/cert-app
     argocd.argoproj.io/sync-wave: "-1"
 type: Opaque
 stringData:
@@ -16,7 +16,7 @@ metadata:
   namespace: capp
   name: capp-cert
   annotations:
-    avp.kubernetes.io/path: data/argocd/cert-app
+    avp.kubernetes.io/path: data/data/argocd/cert-app
     argocd.argoproj.io/sync-wave: "-1"
 type: Opaque
 data:
