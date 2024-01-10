@@ -19,7 +19,7 @@ metadata:
     avp.kubernetes.io/path: avp/data/example/cert-app
     argocd.argoproj.io/sync-wave: "-1"
 type: Opaque
-data:
+stringData:
   cert.crt: <cert.crt>
 ---
 apiVersion: apps/v1
